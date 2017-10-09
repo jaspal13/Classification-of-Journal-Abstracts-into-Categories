@@ -1,0 +1,7 @@
+For bagging we used excel to combine all final prediction from different classifier into one sheet. We just put 5 columns for 5 different classifers in file called
+ensemble.csv
+1. Open ipython shell and type following commands.
+2. run ensemble.py
+3. ensemble()
+4. A file called ensemble_out.csv is generated which is our final submission.
+

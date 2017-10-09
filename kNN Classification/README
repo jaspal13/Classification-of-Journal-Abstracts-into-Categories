@@ -1,0 +1,17 @@
+======
+Steps 
+======
+
+1. Run the "kNN_Classifier.py"
+2. Make sure that the datasets (taining and testing) are in the appropriate folder location as referenced in the source
+
+* The execution reads the training-set and the test-set and cleans both and saves them into seperate csv files
+# Then it creates the feature vector from the words in the formatted training abstracts.
+# Then it calculates the tf-idf (Term Frequency-Inverse Document Frequency) values for the selected words
+# Finally looping through each of the formatted test abstract it calls the "findBestLabel" method to classify them into appropriate categories. 
+
+-----------
+  CAUTION
+-----------
+
+The code executed for a long period since it involves multiple steps of cleaning the data, vectorizing, calculating the tf-idf values and etc. Besides prediction per sample also takes up to 5-6 seconds once the prediction loop has begun.
